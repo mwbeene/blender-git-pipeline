@@ -1,0 +1,216 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "bicycle"
+        },
+        {
+            "mesh" : 1,
+            "name" : "taxi"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "generic-atlas",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "bicycle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "taxi",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "color-atlas_diffuse",
+            "uri" : "color-atlas_diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "color-atlas_metallic-color-atlas_roughness",
+            "uri" : "color-atlas_metallic-color-atlas_roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6003,
+            "max" : [
+                0.24172799289226532,
+                1.02601158618927,
+                0.8601396679878235
+            ],
+            "min" : [
+                -0.24172796308994293,
+                -0.0015927221393212676,
+                -0.8496730923652649
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6003,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6003,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 15960,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 5230,
+            "max" : [
+                1.205549716949463,
+                1.735457420349121,
+                2.180680990219116
+            ],
+            "min" : [
+                -1.205549716949463,
+                -0.08285640925168991,
+                -2.9405758380889893
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 5230,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 5230,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 5508,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 72036,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72036,
+            "byteOffset" : 72036
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48024,
+            "byteOffset" : 144072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31920,
+            "byteOffset" : 192096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62760,
+            "byteOffset" : 224016
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62760,
+            "byteOffset" : 286776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 41840,
+            "byteOffset" : 349536
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11016,
+            "byteOffset" : 391376
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 402392,
+            "uri" : "test-set.bin"
+        }
+    ]
+}
