@@ -7,7 +7,7 @@ This repository shows how Blender can be used with Github to allow for synchrono
 This folder contains .blend files that contain common materials that will be shared across different models. The textures subfolder contains any texture dependencies.
 
 ### Models
-The models contains subfolders for individual assets. Each folder contains the .blend and any unique dependencies and resources. These models may link to materials in the in the materials folder if they use any common materials.
+The models folder contains subfolders for individual assets. Each subfolder contains the .blend and any unique dependencies and resources. These models may link to materials in the in the materials folder if they use any common materials.
 
 ### Sets
 Sets are .blend files that contain links to multiple models that need to be exported together into a project-ready format. If multiple models share the same material from the materials folder, their dependencies will only be included once to prevent duplicated data. The exports folder contains gltf and/or glb files ready for your application.
